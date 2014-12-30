@@ -15,6 +15,7 @@ import android.os.Vibrator;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements SensorEventListener {
 	private OrientationEstimater orientationEstimater = new OrientationEstimater();
@@ -26,7 +27,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		calibrator.load();
 
 		final Handler handler = new Handler();
@@ -85,7 +86,12 @@ public class MainActivity extends Activity implements SensorEventListener {
 					@Override
 					public void onFinish(boolean ok, AccelerometerCalibrator calibrator) {
 						Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-						vibrator.vibrate(new long[] { 0, 100, 50, 100 }, -1);
+						if (ok) {
+							vibrator.vibrate(new long[] { 0, 100, 100, 100 }, -1);
+						} else {
+							vibrator.vibrate(new long[] { 0, 400 }, -1);
+						}
+						Toast.makeText(MainActivity.this, ok ? "OK!" : "Unstable", Toast.LENGTH_LONG).show();
 					}
 				});
 			}

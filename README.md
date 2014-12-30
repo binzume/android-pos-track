@@ -4,9 +4,11 @@
 
 実験的な実装です．実用ではありません．
 
+加速度センサのキャリブレーションが必要です．±X,±Y,±Zの6回行う必要があります．コード読んでください．
+
 説明： http://qiita.com/binzume/items/3bbca6ab8a7926fc7255
 
 ## License
 
-一旦，MIT License扱いで．
+とりあえず，MIT License 扱いで．
 
