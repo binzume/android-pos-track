@@ -1,12 +1,12 @@
-# Android‚ÌƒZƒ“ƒT‚Åƒ|ƒWƒVƒ‡ƒ“ƒgƒ‰ƒbƒLƒ“ƒO
+# Androidã®ã‚»ãƒ³ã‚µã§ãƒã‚¸ã‚·ãƒ§ãƒ³ãƒˆãƒ©ãƒƒã‚­ãƒ³ã‚°
 
-‰Á‘¬“xƒZƒ“ƒT‚ÆƒWƒƒƒCƒ‚Æ‹Cˆ³Œv‚ðŽg‚Á‚Äƒ|ƒWƒVƒ‡ƒ“ƒgƒ‰ƒbƒLƒ“ƒO‚·‚éŽÀŒ±—pƒR[ƒhD
+åŠ é€Ÿåº¦ã‚»ãƒ³ã‚µã¨ã‚¸ãƒ£ã‚¤ãƒ­ã¨æ°—åœ§è¨ˆã‚’ä½¿ã£ã¦ãƒã‚¸ã‚·ãƒ§ãƒ³ãƒˆãƒ©ãƒƒã‚­ãƒ³ã‚°ã™ã‚‹å®Ÿé¨“ç”¨ã‚³ãƒ¼ãƒ‰ï¼Ž
 
-ŽÀŒ±“I‚ÈŽÀ‘•‚Å‚·DŽÀ—p‚Å‚Í‚ ‚è‚Ü‚¹‚ñD
+å®Ÿé¨“çš„ãªå®Ÿè£…ã§ã™ï¼Žå®Ÿç”¨ã§ã¯ã‚ã‚Šã¾ã›ã‚“ï¼Ž
 
-à–¾F http://qiita.com/binzume/items/3bbca6ab8a7926fc7255
+èª¬æ˜Žï¼š http://qiita.com/binzume/items/3bbca6ab8a7926fc7255
 
 ## License
 
-ˆê’UCMIT Licenseˆµ‚¢‚ÅD
+ä¸€æ—¦ï¼ŒMIT Licenseæ‰±ã„ã§ï¼Ž
 
